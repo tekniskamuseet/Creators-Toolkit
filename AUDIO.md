@@ -18,3 +18,6 @@
 
 [serv_spkrtest.pd](https://wisdome-creators-toolkit.tekniskamuseet.github.io/files//serv_spkrtest.pd)
 
+## Trähallen
+
+5 zones + 1 outside.
