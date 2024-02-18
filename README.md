@@ -9,14 +9,13 @@ Welcome to the Wisdome Creators Toolkit!
 - [Video](#video)
 - [Audio](#audio)
 - [Light](#light)
-- Audio
 - [Links](#links)
 - [FAQ](#faq)
 - [FAQ](#faq)
 
 ## Introduction
 
-During fall 2023 a new experimental stage for audiovisual experiences is unveiled at Tekniska Muséet! The Wisdome Project revolves around five leading Swedish science centers joining forces in order to establish innovative visualization dome theaters. A group of artists and technologists, known to some as the Wisdome Wizards, have come together to build the **Creators Toolkit**! A mythical index of knowledge which is said to help bring fantasy to reality…
+During fall 2023 a new stage for audiovisual experiences is unveiled at Tekniska Muséet! The Wisdome Project revolves around five leading Swedish science centers joining forces in order to establish innovative visualization dome theaters. A group of artists and technologists, known to some as the Wisdome Wizards, have come together to build the **Creators Toolkit**! A mythical index of knowledge which is said to help bring fantasy to reality…
 
 ## Getting started
 
@@ -26,7 +25,7 @@ During fall 2023 a new experimental stage for audiovisual experiences is unveile
 
 The dome is set up with 6 projectors, stitched together. The aspect ratio is 1:1 and it is possible to play 8k video (7680 × 7680 px) but 4K is fine (4096 x 4096 px). If you want to save time rendering 1920 x 1920 px is OK.
  
-Render your video as a PNG sequence on your own machine (must be indexed with a leading zero). If possible, save as a zip file in the cloud. It’s then easy to download on the master computer controlling the projectors. 
+Render your video as a PNG sequence on your own machine (must be prefixed with a leading zero). If possible, save as a zip file in the cloud. It’s then easy to download on the master computer controlling the projectors. 
  
 On the master computer you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
 
@@ -44,7 +43,8 @@ On the master computer you can prepare your files for the 6 computers controllin
 
 6. Locate folder with PNG sequence
 
-   **\*\***\*\*\*\***\*\***PNG SEQUENCE MUST HAVE INDEX WITH LEADING ZERO**\*\***\*\*\*\***\*\***
+> [!IMPORTANT]
+> The PNG sequence must be prefixed with a leading zero
 
 7. Settings
 
@@ -72,8 +72,6 @@ On the master computer you can prepare your files for the 6 computers controllin
 
 > [!IMPORTANT]
 > If C-Play complains that \***\*youtube-dl\*\*** doesn’t exist, copy `youtube-dl.exe` to `C:\Windows\System32`
-
-
 
 ## Links
 
