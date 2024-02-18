@@ -76,7 +76,7 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 <img width="1440" alt="Kanaler layout dome" src="https://github.com/tekniskamuseet/wisdome-creators-toolkit/assets/117654590/3a33a921-a368-47f0-be0f-04930d75dfd3">
 
-## Audio Setup with your *Laptop and External Audio Sources* - For example for live performance from the scene of the dome.
+## Audio Setup with your *Laptop and External Audio Sources* - For example for live performances from the scene of the dome.
 
 To connect your laptop and external audio sources to the domespeakers you need to connect to the external mixer Allen Heath SQ5.
 The mixer is located behind the dome screen.
@@ -84,8 +84,8 @@ The mixer is located behind the dome screen.
 1. Download "SQ USB Audio driver" *only a requirement for pc, no required driver for mac*
    https://www.allen-heath.com/hardware/sq/sq-5/resources/
 2. Connect your computer to the mixers internal digital interface via the usb cable connected to the mixer.
-3. Use the stagebox connected to the mixer for your external audio sources. (Bring dibox for line level signals, We have a xlr cables and a 
-   pair of shure beta 58 mics).
+3. Use the stagebox connected to the mixer for your external audio sources. (Bring dibox for line level signals, We have xlr cables and a 
+   pair of shure beta 58 mics available to use).
 4. Patch your relevant inputs sockets to the dante output channels.
 
 Your audio outputs from your daw are "USB INPUTS" on the SQ5
