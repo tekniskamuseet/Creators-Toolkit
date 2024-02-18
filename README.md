@@ -32,7 +32,7 @@ Render your video as a PNG sequence on your own machine (must be prefixed with a
 
 On the master you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
 
-![](/media/wisdome-02.jpg)
+![](/media/wisdome-04.jpg)
 
 ### Split video using Splitter
 
@@ -94,6 +94,8 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 5 zones + 1 outside.
 
+![](/media/wisdome-03.jpg)
+
 ## Light
 
 > [!IMPORTANT]
@@ -135,3 +137,5 @@ We welcome contributions to the Wisdome Creators Toolkit from anyone, regardless
 ## Participation
 
 The best way to participate is to join the [Wisdome Discord](https://discord.gg/r53hh4pw6y), or any of the public hack events announced on Discord.
+
+![](/media/wisdome-02.jpg)
