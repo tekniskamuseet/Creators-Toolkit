@@ -94,7 +94,6 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 5 zones + 1 outside.
 
-
 ## Light
 
 > [!IMPORTANT]
@@ -111,8 +110,7 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 ### 3D assets of dome
 
-[https://tekniskamuseet-my.sharepoint.com/personal/jsjn_tekniskamuseet_se/\_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjsjn_tekniskamuseet_se%2FDocuments%2FWisdome Unreal-Blender&ga=1](https://tekniskamuseet-my.sharepoint.com/personal/jsjn_tekniskamuseet_se/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjsjn%5Ftekniskamuseet%5Fse%2FDocuments%2FWisdome%20Unreal%2DBlender&ga=1)
-[Tekniska_Wisdome_V01.fbx](https://prod-files-secure.s3.us-west-2.amazonaws.com/bff47d75-b622-4565-b186-e6c0c433fca8/75724081-0481-4609-b801-57ad4d353a53/Tekniska_Wisdome_V01.fbx)
+[Tekniska_Wisdome_V01.fbx](files/Tekniska_Wisdome_V01.fbx)
 
 ### Stream Audio/Video using VDO.ninja (OBS)
 
@@ -136,6 +134,7 @@ On the master you can prepare your files for the 6 computers controlling each pr
 No. The current technical setup consists of a video cluster with a master computer and 6 slaves for each of the projectors. The computers are out of physical reach, but in the control room all computers can be accessed remotely via a monitor with mouse and keyboard.
 
 [!CAUTION]
+
 > It is not possible to plug a USB stick, SD card or anything such as HDMI, DP, DVI etc. unless you would go to the server room, which you will not have direct access to.
 
 ### Will it be possible to have one output for the whole dome?
