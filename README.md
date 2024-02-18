@@ -6,8 +6,7 @@ Welcome to the Wisdome Creators Toolkit!
 
 ## Table of Contents
 
--   Introduction
--   Getting started
+-   [Introduction](#introduction)
 -   [Video](#video)
 -   [Audio](#audio)
 -   [Light](#light)
@@ -19,10 +18,6 @@ Welcome to the Wisdome Creators Toolkit!
 ## Introduction
 
 Fall 2023 marked the unveiling of a new stage for audiovisual experiences at Tekniska Muséet! The Wisdome Project, a collaboration among five leading Swedish science centers, introduces innovative visualization dome theaters. The Wisdome Wizards, a group of artists and technologists, have assembled the **Creators Toolkit**—a legendary compendium rumored to bring fantasy to reality.
-
-## Getting started
-
-Access to the Wisdome control room is essential for utilizing this document.
 
 ## Video
 
