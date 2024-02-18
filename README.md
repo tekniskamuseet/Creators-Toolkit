@@ -133,8 +133,7 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 No. The current technical setup consists of a video cluster with a master computer and 6 slaves for each of the projectors. The computers are out of physical reach, but in the control room all computers can be accessed remotely via a monitor with mouse and keyboard.
 
-[!CAUTION]
-
+> [!CAUTION]
 > It is not possible to plug a USB stick, SD card or anything such as HDMI, DP, DVI etc. unless you would go to the server room, which you will not have direct access to.
 
 ### Will it be possible to have one output for the whole dome?
