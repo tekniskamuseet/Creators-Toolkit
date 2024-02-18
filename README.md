@@ -29,20 +29,20 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 ### Split video using Splitter
 
-1. **On "Master"**
-2. Launch "Splitter_GUI.exe" from `D:\Splitter2020\bin`
-3. Configure using [tekniska_split.xml](/files/)
+1. On **Master**
+2. Launch `Splitter_GUI.exe` from `D:\Splitter2020\bin`
+3. Configure using `tekniska_split.xml`
 4. Navigate to folder with PNG sequence, ensuring files are prefixed with a leading zero
 5. Adjust settings:
-    - Output path: [custom]
-    - Project title: [custom]
+    - Output path: []
+    - Project title: []
     - Preset: **Veryfast**
 
 ### Change video output on Crestron touch monitor
 
 1. **On Crestron**
-2. Access "Videomonitor"
-3. Choose "Ingång" and a "Planetarie" option
+2. Access **Videomonitor**
+3. Choose **Ingång** and a **Planetarie** option
 
 ### Sending/Receiving Video Stream
 
@@ -51,7 +51,7 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
    `ffmpeg -f gdigrab -video_size 1024x1024 -offset_x 100 -offset_y 300 -show_region 1 -framerate 16 -i "desktop" -preset ultrafast -vcodec mpeg4 -crf 0 -f mpegts "udp://192.168.204.255:12345?pkt_size=1316"`
 3. Open `C-Troll.exe`
 4. Choose **Filmvisning**
-5. In C-Play; select Open URL and enter `udp://192.168.204.101:12345?pkt_size=1316`
+5. In C-Play, select Open URL and enter: `udp://192.168.204.101:12345?pkt_size=1316`
 
 ## Audio
 
