@@ -2,6 +2,8 @@
 
 Welcome to the Wisdome Creators Toolkit!
 
+![](/media/wisdome-01.jpg)
+
 ## Table of Contents
 
 -   Introduction
@@ -29,6 +31,8 @@ The dome is set up with 6 projectors, stitched together. The aspect ratio is 1:1
 Render your video as a PNG sequence on your own machine (must be prefixed with a leading zero). If possible, save as a zip file in the cloud. It’s then easy to download on the master computer controlling the projectors.
 
 On the master you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
+
+![](/media/wisdome-02.jpg)
 
 ### Split video using Splitter
 
