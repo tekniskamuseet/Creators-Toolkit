@@ -19,7 +19,7 @@ During fall 2023 a new stage for audiovisual experiences is unveiled at Tekniska
 
 ## Getting started
 
-…
+This document relies on you having direct access to the Wisdome control room.
 
 ## Video
 
@@ -27,7 +27,7 @@ The dome is set up with 6 projectors, stitched together. The aspect ratio is 1:1
 
 Render your video as a PNG sequence on your own machine (must be prefixed with a leading zero). If possible, save as a zip file in the cloud. It’s then easy to download on the master computer controlling the projectors.
 
-On the master computer you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
+On the master you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
 
 ### Split video using Splitter
 
@@ -49,18 +49,14 @@ On the master computer you can prepare your files for the 6 computers controllin
 7. Settings
 
     1. Output path: [custom]
-
-        **OUTPUT TO TEST_X_VIDEO** (can’t remember the correct path…)
-
     2. Project title: [custom]
     3. Preset: **Veryfast**
 
-### Change video output on Crestron monitor
+### Change video output on Crestron touch monitor
 
 1. On Crestron
 2. Locate "Videomonitor"
-3. Touch "Ingång"
-4. Select a "Planetarie" option
+3. Select "Ingång" and a "Planetarie" option
 
 ### Sending/Receiving Video Stream
 
@@ -71,7 +67,7 @@ On the master computer you can prepare your files for the 6 computers controllin
 4. In C-Play; Choose Open URL, enter `udp://192.168.204.101:12345?pkt_size=1316`
 
 > [!IMPORTANT]
-> If C-Play complains that \***\*youtube-dl\*\*** doesn’t exist, copy `youtube-dl.exe` to `C:\Windows\System32`
+> If C-Play complains that **youtube-dl** doesn’t exist, copy `youtube-dl.exe` to `C:\Windows\System32`
 
 ## Audio
 
@@ -89,10 +85,6 @@ On the master computer you can prepare your files for the 6 computers controllin
 10. Rear right
 11. LFE (Sub)
 
-### Servando PureData Speaker Test
-
-[serv_spkrtest.pd](https://wisdome-creators-toolkit.tekniskamuseet.github.io/files//serv_spkrtest.pd)
-
 ### Trähallen
 
 5 zones + 1 outside.
@@ -106,14 +98,17 @@ On the master computer you can prepare your files for the 6 computers controllin
    1. IP Address: `2.1.1.1`
    2. Subnet Mask: `255.0.0.0`
    3. Router/Gateway: `2.1.1.1`
-2. In Resolume:
+2. In ArtNet sending software:
    1. Target IP: `2.255.255.255`
-
 
 ## Links
 
--   https://github.com/sgct/sgct
+-   [SGCT - Simple Graphics Cluster Toolkit](https://github.com/sgct/sgct)
 
 ## Contributing
 
+We welcome contributions to the Wisdome Creators Toolkit from anyone, regardless of experience level. If you are interested in contributing, please reach out in the [Wisdome Discord](https://discord.gg/r53hh4pw6y) for more information.
+
 ## Participation
+
+The best way to participate is to join the [Wisdome Discord](https://discord.gg/r53hh4pw6y), or any of the public hack events announced on Discord.
