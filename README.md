@@ -55,19 +55,26 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 ## Audio
 
-### Channel Schematic
+## Audio Setup on **Master**
 
-1. Focus
-2. Center
-3. Left
-4. Right
-5. Side Left Front
-6. Side Left Rear
-7. Rear Left
-8. Side Right Front
-9. Side Right Rear
-10. Rear right
-11. LFE (Sub)
+1. Choose ASIO Driver : ASIOMadiface USB
+2. Enable Dante Outputs 1-16
+
+### Channel Schematic 
+
+1. Left
+2. Right
+3. Center
+4. LFE
+5. Left Surround Front
+6. Right Surround Front
+7. Left Surround Rear
+8. Right Surround Rear
+9. Left Surround Back
+10. Right Surround Back
+16. Focus Center (Height center is on channel *16!*)
+
+<img width="1440" alt="Kanaler layout dome" src="https://github.com/tekniskamuseet/wisdome-creators-toolkit/assets/117654590/3a33a921-a368-47f0-be0f-04930d75dfd3">
 
 ### Trähallen
 
