@@ -1,10 +1,16 @@
 # Video
 
+The dome is set up with 6 projectors, stitched together. The aspect ratio is 1:1 and it is possible to play 8k video (7680 × 7680 px) but 4K is fine (4096 x 4096 px). If you want to save time rendering 1920 x 1920 px is OK.
+ 
+Render your video as a PNG sequence on your own machine (must be indexed with a leading zero). If possible, save as a zip file in the cloud. It’s then easy to download on the master computer controlling the projectors. 
+ 
+On the master computer you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
+
 ## Split video using Splitter
 
-1. On “Master”
+1. On "Master"
 2. Locate: `D:\Splitter2020\bin`
-3. Open “Splitter_GUI.exe”
+3. Open "Splitter_GUI.exe"
 4. Set config file
 5. Locate: `D:\SGCT\V2`
 
@@ -28,9 +34,9 @@
 ## Change video output on Crestron monitor
 
 1. On Crestron
-2. Locate “Videomonitor”
-3. Touch “Ingång”
-4. Select a “Planetarie” option
+2. Locate "Videomonitor"
+3. Touch "Ingång"
+4. Select a "Planetarie" option
 
 ## Sending/Receiving Video Stream
 
