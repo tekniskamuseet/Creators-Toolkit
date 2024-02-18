@@ -2,7 +2,7 @@
 
 Welcome to the Wisdome Creators Toolkit!
 
-![](/media/wisdome-01.jpg)
+![](/media/wisdome-03.jpg)
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ Welcome to the Wisdome Creators Toolkit!
 -   [Other](#other)
 -   [Links](#links)
 -   [FAQ](#faq)
--   [FAQ](#faq)
+-   [Contributing](#contributing)
 
 ## Introduction
 
@@ -94,12 +94,11 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 5 zones + 1 outside.
 
-![](/media/wisdome-03.jpg)
 
 ## Light
 
 > [!IMPORTANT]
-> 🔥 **Temporary solution**. Connect your computer directly to the DMX transmitter via Ethernet.
+> Connect your computer directly to the DMX transmitter via Ethernet.
 
 1. Set Ethernet interface set:
     1. IP Address: `2.1.1.1`
@@ -130,12 +129,21 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 -   [SGCT - Simple Graphics Cluster Toolkit](https://github.com/sgct/sgct)
 
+## FAQ
+
+### Is it possible to have one output for the whole dome?
+
+No. The current technical setup consists of a video cluster with a master computer and 6 slaves for each of the projectors. The computers are out of physical reach, but in the control room all computers can be accessed remotely via a monitor with mouse and keyboard.
+
+[!CAUTION]
+> It is not possible to plug a USB stick, SD card or anything such as HDMI, DP, DVI etc. unless you would go to the server room, which you will not have direct access to.
+
+### Will it be possible to have one output for the whole dome?
+
+Theoretically, yes, but it is not yet in place.
+
 ## Contributing
 
 We welcome contributions to the Wisdome Creators Toolkit from anyone, regardless of experience level. If you are interested in contributing, please reach out in the [Wisdome Discord](https://discord.gg/r53hh4pw6y) for more information.
 
-## Participation
-
-The best way to participate is to join the [Wisdome Discord](https://discord.gg/r53hh4pw6y), or any of the public hack events announced on Discord.
-
-![](/media/wisdome-02.jpg)
+![](/media/wisdome-01.jpg)
