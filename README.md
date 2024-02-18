@@ -83,7 +83,8 @@ To connect your laptop and external audio sources to the domespeakers you need t
 1. Download "SQ USB Audio driver" *only a requirement for pc, no required driver for mac*
    https://www.allen-heath.com/hardware/sq/sq-5/resources/
 2. Connect your computer to the mixers internal digital interface via the usb cable connected to the mixer.
-3. Use the stagebox for external audio source. (Bring dibox for line level signals, We have a xlr cables and a pair of shure beta 58 mics).
+3. Use the stagebox connected to the mixer for external audio source. (Bring dibox for line level signals, We have a xlr cables and a pair 
+   of shure beta 58 mics).
 4. Patch your relevant inputs sockets to the dante output channels.
 
 Your audio outputs from your daw are "USB INPUTS" on the SQ5
