@@ -55,7 +55,7 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 ## Audio
 
-## Audio Setup in DAW on the **Master Computer**
+### Audio Setup in DAW on the **Master Computer**
 
 1. Choose ASIO Driver : ASIOMadiface USB in your preferred DAW
 2. Enable Dante Outputs 1-16
@@ -74,33 +74,24 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 10. Right Surround Back
 16. Focus Center (Height center is on channel *16!*)
 
-<img width="1440" alt="Kanaler layout dome" src="https://github.com/tekniskamuseet/wisdome-creators-toolkit/assets/117654590/3a33a921-a368-47f0-be0f-04930d75dfd3">
+![Wisdome](/media/wisdome-audio-01.jpg)
 
 ## Audio Setup with your *Laptop and External Audio Sources* - For example for live performances from the scene of the dome.
 
-To connect your laptop and external audio sources to the domespeakers you need to connect to the external mixer Allen Heath SQ5.
-The mixer is located behind the dome screen.
+To connect your laptop and external audio sources to the dome speakers you need to connect to the external Allen Heath SQ5 mixer, located behind the dome screen.
 
-1. Download "SQ USB Audio driver" *only a requirement for pc, no required driver for mac*
-   https://www.allen-heath.com/hardware/sq/sq-5/resources/
-2. Connect your computer to the mixers internal digital interface via the usb cable connected to the mixer.
-3. Use the stagebox connected to the mixer for your external audio sources. (Bring dibox for line level signals, We have xlr cables and a 
-   pair of shure beta 58 mics available to use).
-4. Patch your relevant inputs sockets to the dante output channels.
+1. Download and install the [SQ USB Audio driver](https://www.allen-heath.com/hardware/sq/sq-5/resources/) *only a requirement for PC*
+2. Connect your computer to the mixers internal digital interface via the USB cable connected to the mixer.
+3. Use the stagebox connected to the mixer for your External Audio Sources. (Bring DI box for line level signals, there are XLR and Shure Beta 58 mics available).
+4. Patch your relevant inputs sockets to the Dante output channels.
 
-Your audio outputs from your daw are "USB INPUTS" on the SQ5
-If you want to connect external audio sources you can connect it to the stagebox, to patch these you refer to "S-LINK INPUTS".
+Your audio outputs from your DAW are "USB INPUTS" on the SQ5. If you want to connect external audio sources you can connect it to the stagebox, to patch these you refer to "S-LINK INPUTS".
 
 > [!CAUTION]
 > Make sure to switch from "Domkälla" to "Extern mixer" in the audio tab in the Crestron computer to enable sound from the mixer.
   Don't forget to switch back to "Domkälla" to enable sound from the master computer.
 
-<img width="531" alt="Screenshot 2024-02-18 at 22 08 55" src="https://github.com/tekniskamuseet/wisdome-creators-toolkit/assets/117654590/2e861973-5e86-4fd7-9bff-06fccf11b513">
-
-
-   
-
-
+![Wisdome](/media/wisdome-audio-02.jpg)
 
 ### Trähallen (Still under development)
 
