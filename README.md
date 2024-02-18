@@ -2,7 +2,7 @@
 
 Welcome to the Wisdome Creators Toolkit!
 
-![](/media/wisdome-03.jpg)
+![Wisdome](/media/wisdome-03.jpg)
 
 ## Table of Contents
 
@@ -18,61 +18,45 @@ Welcome to the Wisdome Creators Toolkit!
 
 ## Introduction
 
-During fall 2023 a new stage for audiovisual experiences is unveiled at Tekniska Muséet! The Wisdome Project revolves around five leading Swedish science centers joining forces in order to establish innovative visualization dome theaters. A group of artists and technologists, known to some as the Wisdome Wizards, have come together to build the **Creators Toolkit**! A mythical index of knowledge which is said to help bring fantasy to reality…
+Fall 2023 marked the unveiling of a new stage for audiovisual experiences at Tekniska Muséet! The Wisdome Project, a collaboration among five leading Swedish science centers, introduces innovative visualization dome theaters. The Wisdome Wizards, a group of artists and technologists, have assembled the **Creators Toolkit**—a legendary compendium rumored to bring fantasy to reality.
 
 ## Getting started
 
-This document relies on you having direct access to the Wisdome control room.
+Access to the Wisdome control room is essential for utilizing this document.
 
 ## Video
 
-The dome is set up with 6 projectors, stitched together. The aspect ratio is 1:1 and it is possible to play 8k video (7680 × 7680 px) but 4K is fine (4096 x 4096 px). If you want to save time rendering 1920 x 1920 px is OK.
+The dome features 6 projectors stitched together, supporting 8k (7680 × 7680 px) or 4K (4096 x 4096 px) video. For quicker rendering, 1920 x 1920 px suffices.
 
-Render your video as a PNG sequence on your own machine (must be prefixed with a leading zero). If possible, save as a zip file in the cloud. It’s then easy to download on the master computer controlling the projectors.
+Render your video as a PNG sequence, preferably in a cloud-stored zip file for easy download to the master computer controlling projectors. Utilize Splitter software to prepare files for the 6 projector-controlling computers, automatically adjusting aspect ratio and applying edge blending.
 
-On the master you can prepare your files for the 6 computers controlling each projector. This can be done by using a piece of software called Splitter. The output of your 1:1 video will automatically be adjusted for the dome with added "fish eye" effect as well as correct edge blending. Your video is automatically divided into six video files, one for each projector.
-
-![](/media/wisdome-04.jpg)
+![Splitter](/media/wisdome-04.jpg)
 
 ### Split video using Splitter
 
-1. On "Master"
-2. Locate: `D:\Splitter2020\bin`
-3. Open "Splitter_GUI.exe"
-4. Set config file
-5. Locate: `D:\SGCT\V2`
-
-    [tekniska_mono_split.xml](https://prod-files-secure.s3.us-west-2.amazonaws.com/bff47d75-b622-4565-b186-e6c0c433fca8/c163186e-ec4e-4ef2-94e8-ed44c41cdff3/tekniska_mono_split.xml)
-
-    [tekniska_stereo_split.xml](https://prod-files-secure.s3.us-west-2.amazonaws.com/bff47d75-b622-4565-b186-e6c0c433fca8/0ff3c59d-4da5-45e4-8f04-d8f1440d4403/tekniska_stereo_split.xml)
-
-6. Locate folder with PNG sequence
-
-> [!IMPORTANT]
-> The PNG sequence must be prefixed with a leading zero
-
-7. Settings
-
-    1. Output path: [custom]
-    2. Project title: [custom]
-    3. Preset: **Veryfast**
+1. **On "Master"**
+2. Launch "Splitter_GUI.exe" from `D:\Splitter2020\bin`
+3. Configure using [tekniska_split.xml](/files/)
+4. Navigate to folder with PNG sequence, ensuring files are prefixed with a leading zero
+5. Adjust settings:
+    - Output path: [custom]
+    - Project title: [custom]
+    - Preset: **Veryfast**
 
 ### Change video output on Crestron touch monitor
 
-1. On Crestron
-2. Locate "Videomonitor"
-3. Select "Ingång" and a "Planetarie" option
+1. **On Crestron**
+2. Access "Videomonitor"
+3. Choose "Ingång" and a "Planetarie" option
 
 ### Sending/Receiving Video Stream
 
-1. In Terminal, go to: `D:\Splitter2020\bin` or where your ffmpeg binaries are and run:
+1. In Terminal, navigate to `D:\Splitter2020\bin` or relevant ffmpeg directory
+2. Run:
    `ffmpeg -f gdigrab -video_size 1024x1024 -offset_x 100 -offset_y 300 -show_region 1 -framerate 16 -i "desktop" -preset ultrafast -vcodec mpeg4 -crf 0 -f mpegts "udp://192.168.204.255:12345?pkt_size=1316"`
-2. Open `C-Troll.exe`
-3. Select **Filmvisning**
-4. In C-Play; Choose Open URL, enter `udp://192.168.204.101:12345?pkt_size=1316`
-
-> [!IMPORTANT]
-> If C-Play complains that **youtube-dl** doesn’t exist, copy `youtube-dl.exe` to `C:\Windows\System32`
+3. Open `C-Troll.exe`
+4. Choose **Filmvisning**
+5. In C-Play; select Open URL and enter `udp://192.168.204.101:12345?pkt_size=1316`
 
 ## Audio
 
@@ -96,15 +80,13 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 ## Light
 
-> [!IMPORTANT]
-> Connect your computer directly to the DMX transmitter via Ethernet.
+Ensure direct connection of your computer to the DMX transmitter via Ethernet.
 
-1. Set Ethernet interface set:
-    1. IP Address: `2.1.1.1`
-    2. Subnet Mask: `255.0.0.0`
-    3. Router/Gateway: `2.1.1.1`
-2. In ArtNet sending software:
-    1. Target IP: `2.255.255.255`
+1. Configure Ethernet interface:
+    - IP Address: `2.1.1.1`
+    - Subnet Mask: `255.0.0.0`
+    - Router/Gateway: `2.1.1.1`
+2. In ArtNet sending software, set target IP to `2.255.255.255`.
 
 ## Other
 
@@ -114,14 +96,14 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 ### Stream Audio/Video using VDO.ninja (OBS)
 
-1. On the Sender, open: https://vdo.ninja/v16/?room=Wisdome2023&hash=a3b1&view=
-2. On the Receiver (director), open: https://vdo.ninja/v16/?director=Wisdome2023&password=Wisdome2023
+1. Sender: Open [VDO.ninja room](https://vdo.ninja/v16/?room=Wisdome2023&hash=a3b1&view=)
+2. Receiver (director): Open [VDO.ninja director's view](https://vdo.ninja/v16/?director=Wisdome2023&password=Wisdome2023)
 
 ### Web Visualiser
 
--   https://lab.possan.se/wizdome/vis/4/index.html
--   https://lab.possan.se/wizdome/vis/3/index.html
--   https://lab.possan.codes/wizdome/vis/1/index.html
+-   [Visualization 1](https://lab.possan.codes/wizdome/vis/1/index.html)
+-   [Visualization 2](https://lab.possan.codes/wizdome/vis/2/index.html)
+-   [Visualization 3](https://lab.possan.codes/wizdome/vis/3/index.html)
 
 ## Links
 
@@ -131,17 +113,17 @@ On the master you can prepare your files for the 6 computers controlling each pr
 
 ### Is it possible to have one output for the whole dome?
 
-No. The current technical setup consists of a video cluster with a master computer and 6 slaves for each of the projectors. The computers are out of physical reach, but in the control room all computers can be accessed remotely via a monitor with mouse and keyboard.
+No. The current setup involves a video cluster with a master computer and 6 slaves for each projector. While the computers are not physically accessible, remote access is available in the control room via a monitor with mouse and keyboard.
 
 > [!CAUTION]
-> It is not possible to plug a USB stick, SD card or anything such as HDMI, DP, DVI etc. unless you would go to the server room, which you will not have direct access to.
+> Direct connections such as USB sticks, SD cards, HDMI, DP, or DVI are not feasible without access to the server room.
 
 ### Will it be possible to have one output for the whole dome?
 
-Theoretically, yes, but it is not yet in place.
+Theoretically, yes, but this functionality is not yet implemented.
 
 ## Contributing
 
-We welcome contributions to the Wisdome Creators Toolkit from anyone, regardless of experience level. If you are interested in contributing, please reach out in the [Wisdome Discord](https://discord.gg/r53hh4pw6y) for more information.
+We welcome contributions to the Wisdome Creators Toolkit from all experience levels. For more information, please join the [Wisdome Discord](https://discord.gg/r53hh4pw6y).
 
-![](/media/wisdome-01.jpg)
+![Wisdome](/media/wisdome-01.jpg)
