@@ -7,6 +7,7 @@ Welcome to the Wisdome Creators Toolkit!
 ## Table of Contents
 
 -   [Introduction](#introduction)
+-   [Control Room](#control-room)
 -   [Video](#video)
 -   [Audio](#audio)
 -   [Light](#light)
@@ -18,6 +19,12 @@ Welcome to the Wisdome Creators Toolkit!
 ## Introduction
 
 Fall 2023 marked the unveiling of a new stage for audiovisual experiences at Tekniska Muséet! The Wisdome Project, a collaboration among five leading Swedish science centers, introduces innovative visualization dome theaters. The Wisdome Wizards, a group of artists and technologists, have assembled the **Creators Toolkit**—a legendary compendium rumored to bring fantasy to reality.
+
+## Control Room
+
+The interface for Wisdome is accessed through the control room and its two screens. The screen on the left is the Crestron Control Screen. The second screen comes with a mouse and keyboard, and is used to interact with the computers in the server. It's setup with an additional virtual screen which can be used for browsing.
+
+Read more about the interfaces and how to use them in this [PDF](/files/Wisdome%20Control%20Room%20Manual%201.0%20Swedish.pdf) (currently only in Swedish).
 
 ## Video
 
