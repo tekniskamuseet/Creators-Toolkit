@@ -24,7 +24,7 @@ Fall 2023 marked the unveiling of a new stage for audiovisual experiences at Tek
 
 The interface for Wisdome is accessed through the control room and its two screens. The screen on the left is the Crestron Control Screen. The second screen comes with a mouse and keyboard, and is used to interact with the computers in the server. It's setup with an additional virtual screen which can be used for browsing.
 
-Read more about the interfaces and how to use them in this PDF [SWE](/files/Wisdome%20Control%20Room%20Manual%201.0%20Swedish.pdf)/[ENG](/files/Wisdome%20Control%20Room%20Manual%201.0%20English.pdf).
+Read more about the interfaces and how to use them in this PDF ([SWE](/files/Wisdome_Control_Room_Manual-1.0-Swedish.pdf)/[ENG](/files/Wisdome_Control_Room_Manual-1.0-English.pdf)).
 
 ## Video
 
