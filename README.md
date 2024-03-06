@@ -119,8 +119,6 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
     - Router/Gateway: `2.1.1.1`
 2. In ArtNet sending software, set target IP to `2.255.255.255`.
 
-If you are running Resolume, add [wisdome dome ring 1.xml](files/wisdome%20dome%20ring%201.xml) and [wisdome dome ring 2.xml](files/wisdome%20dome%20ring%202.xml) in your Fixture Library. When they are in place, in Advanced Output, load [Wisdome.xml](files/Wisdome.xml).
-
 ## Other
 
 ### 3D assets of dome
