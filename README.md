@@ -153,6 +153,10 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
 
 ## FAQ
 
+### Does the SQ5 mixer show up as an audio IO device where each speaker is a separate channel? 
+
+Yes.
+
 ### Is it possible to have one output for the whole dome?
 
 No. The current setup involves a video cluster with a master computer and 6 slaves for each projector. While the computers are not physically accessible, remote access is available in the control room via a monitor with mouse and keyboard.
