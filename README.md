@@ -106,6 +106,11 @@ Your audio outputs from your DAW are "USB INPUTS" on the SQ5. If you want to con
 
 ## Light
 
+The LED ring surrounding the dome is made up of two Universes and a total of 285 RGB pixels:
+
+- Universe 1 has 170 pixels and Universe 2 has 115 pixels.
+- Universe 2 needs to be flipped in order to for an animation to go "full circle". 
+
 Ensure direct connection of your computer to the DMX transmitter via Ethernet.
 
 1. Configure Ethernet interface:
@@ -113,6 +118,8 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
     - Subnet Mask: `255.0.0.0`
     - Router/Gateway: `2.1.1.1`
 2. In ArtNet sending software, set target IP to `2.255.255.255`.
+
+If you are running Resolume, add [wisdome dome ring 1.xml](files/wisdome%20dome%20ring%201.xml) and [wisdome dome ring 2.xml](files/wisdome%20dome%20ring%202.xml) in your Fixture Library. When they are in place, in Advanced Output, load [Wisdome.xml](files/Wisdome.xml).
 
 ## Other
 
