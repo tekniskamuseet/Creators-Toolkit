@@ -119,6 +119,17 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
     - Router/Gateway: `2.1.1.1`
 2. In ArtNet sending software, set target IP to `2.255.255.255`.
 
+## Open Spce
+
+### Inserting 3D models in OpenSpace in the dome
+
+1. Read the instructions on how to insert models in openspace at https://docs.openspaceproject.com/en/latest/manual/content/models/loading.html
+    
+ - GLB and baked FBX works fine in OpenSpace and there are many other formats that OS can handle (refer to the resources above).
+ - Keyframing animation works but not morphing or skinning. Animations can be looped and triggered on demand.
+ - *Metallic/Specular finish is not currently available in OS.
+ - The Models can be displayed in mono or in stereo (3D)
+
 ## Other
 
 ### 3D assets of dome
