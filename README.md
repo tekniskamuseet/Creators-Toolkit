@@ -85,7 +85,7 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 ## Audio Setup with your *Laptop and External Audio Sources* - For example for live performances from the scene of the dome.
 
-To connect your laptop and external audio sources to the dome speakers you need to connect to the external Allen Heath SQ5 mixer, located behind the dome screen.
+To connect your laptop and external audio sources to the dome speakers you need to connect to the external Allen Heath SQ5 mixer, located behind the dome screen. The mixer should show up as an audio IO device where each speaker is a separate channel. 
 
 1. Download and install the [SQ USB Audio driver](https://www.allen-heath.com/hardware/sq/sq-5/resources/) *only a requirement for PC*
 2. Connect your computer to the mixers internal digital interface via the USB cable connected to the mixer.
@@ -119,7 +119,7 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
     - Router/Gateway: `2.1.1.1`
 2. In ArtNet sending software, set target IP to `2.255.255.255`.
 
-## Open Spce
+## Other
 
 ### Inserting 3D models in OpenSpace in the dome
 
@@ -129,8 +129,6 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
  - Keyframing animation works but not morphing or skinning. Animations can be looped and triggered on demand.
  - *Metallic/Specular finish is not currently available in OS.
  - The Models can be displayed in mono or in stereo (3D)
-
-## Other
 
 ### 3D assets of dome
 
@@ -152,10 +150,6 @@ Ensure direct connection of your computer to the DMX transmitter via Ethernet.
 -   [SGCT - Simple Graphics Cluster Toolkit](https://github.com/sgct/sgct)
 
 ## FAQ
-
-### Does the SQ5 mixer show up as an audio IO device where each speaker is a separate channel? 
-
-Yes.
 
 ### Is it possible to have one output for the whole dome?
 
