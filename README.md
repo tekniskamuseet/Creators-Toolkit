@@ -36,6 +36,9 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 ### Split video using Splitter
 
+> [!CAUTION]
+> If your file is 8K and more than 50 gb, it is advised to use Splitter, otherwise you can play it directly in C-Play provided the video file is in the same path on all nodes.
+
 1. On **Master**
 2. Launch `Splitter_GUI.exe` from `D:\Splitter2020\bin`
 3. Configure using `tekniska_mono_split.xml` in `D:\SGCT\V2\` if you are running mono, otherwise use `tekniska_stereo_split.xml`.
@@ -44,6 +47,11 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
     - Output path: []
     - Project title: []
     - Preset: **Veryfast**
+
+### Play Video
+
+1. In C-Play, open your file…
+2. If using `mono`, set `2D (Mono)` and `Grid (Dome`
 
 ### Change video output on Crestron touch monitor
 
