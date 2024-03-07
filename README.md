@@ -28,7 +28,7 @@ Read more about the interfaces and how to use them in this PDF ([SWE](/files/Wis
 
 ## Video
 
-The dome features 6 projectors stitched together, supporting 8k (7680 × 7680 px) or 4K (4096 x 4096 px) video. For quicker rendering, 1920 x 1920 px suffices.
+The dome features 6 projectors stitched together, supporting 8k (8192 × 8192 px) or 4K (4096 x 4096 px) fulldome video. For quicker rendering, 1920 x 1920 px suffices.
 
 Render your video as a PNG sequence, preferably in a cloud-stored zip file for easy download to the master computer controlling projectors. Utilize Splitter software to prepare files for the 6 projector-controlling computers, automatically adjusting aspect ratio and applying edge blending.
 
