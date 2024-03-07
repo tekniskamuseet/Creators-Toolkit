@@ -38,7 +38,7 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 
 1. On **Master**
 2. Launch `Splitter_GUI.exe` from `D:\Splitter2020\bin`
-3. Configure using `tekniska_split.xml`
+3. Configure using `tekniska_mono_split.xml` in `D:\SGCT\V2\` if you are running mono, otherwise use `tekniska_stereo_split.xml`.
 4. Navigate to folder with PNG sequence, ensuring files are prefixed with a leading zero
 5. Adjust settings:
     - Output path: []
