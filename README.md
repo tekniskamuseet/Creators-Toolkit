@@ -51,7 +51,7 @@ Render your video as a PNG sequence, preferably in a cloud-stored zip file for e
 ### Play Video
 
 1. In C-Play, open your file…
-2. If using `mono`, set `2D (Mono)` and `Grid (Dome`
+2. If using `mono`, set `2D (Mono)` and `Grid (Dome)`
 
 ### Change video output on Crestron touch monitor
 
